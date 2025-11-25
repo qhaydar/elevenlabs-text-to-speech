@@ -85,3 +85,16 @@ Verified on macOS:
 - **Voice Selection**: Allow users to pick a voice from the CLI.
 - **Streaming Audio**: Play audio chunks as they arrive for lower latency.
 - **Save History**: Save generated scripts and audio files to a `output/` directory.
+
+## 7. Git History
+
+The repository includes a realistic git history simulating development over 5 days:
+
+- **Day 1**: Initial project setup (`.gitignore`, `.env.example`, `requirements.txt`)
+- **Day 2**: `feature/llm-core` - Implemented Claude 3.5 Sonnet client
+- **Day 3**: `feature/tts-core` - Implemented ElevenLabs TTS client  
+- **Day 4**: `feature/cli-app` - Implemented main CLI and audio player
+- **Day 5**: `feature/docs-polish` - Added documentation and integration tests
+- **Day 6**: Upgraded to Claude 4.5 Sonnet (on `main`)
+
+Each feature was developed on a separate branch and merged into `main`, creating a clean and professional commit history.
