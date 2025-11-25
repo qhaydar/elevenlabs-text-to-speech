@@ -1,10 +1,10 @@
 # ElevenLabs Text-to-Speech
 
-A CLI tool that generates spoken scripts from prompts using **Claude 3.5 Sonnet** and converts them to audio using **ElevenLabs**.
+A CLI tool that generates spoken scripts from prompts using **Claude 4.5 Sonnet** and converts them to audio using **ElevenLabs**.
 
 ## Features
 
-- **Script Generation**: Uses Claude 3.5 Sonnet to convert simple prompts into engaging spoken scripts.
+- **Script Generation**: Uses Claude 4.5 Sonnet to convert simple prompts into engaging spoken scripts.
 - **Text-to-Speech**: Uses ElevenLabs' high-quality TTS (Rachel voice) to generate audio.
 - **Instant Playback**: Automatically plays the generated audio on macOS.
 

@@ -1,6 +1,6 @@
 # AI TTS Studio - Detailed Walkthrough
 
-This document provides a comprehensive overview of the **AI TTS Studio** project, a CLI tool that transforms user prompts into spoken audio using Claude 3.5 Sonnet and ElevenLabs.
+This document provides a comprehensive overview of the **AI TTS Studio** project, a CLI tool that transforms user prompts into spoken audio using Claude 4.5 Sonnet and ElevenLabs.
 
 ## 1. Project Overview
 
@@ -25,7 +25,7 @@ src/
 
 #### `LLMClient` (`src/llm_client.py`)
 - **Purpose**: Wraps the `anthropic` SDK.
-- **Model**: Uses `claude-3-5-sonnet-20241022`.
+- **Model**: Uses `claude-4-5-sonnet-20251022`.
 - **System Prompt**: Configured to act as a "professional scriptwriter", ensuring output is natural and devoid of stage directions (like `[laughs]`), which TTS engines might read aloud.
 
 #### `TTSClient` (`src/tts_client.py`)
