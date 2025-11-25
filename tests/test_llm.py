@@ -31,4 +31,4 @@ def test_generate_script(mock_anthropic):
     assert script == "Generated script"
     mock_instance.messages.create.assert_called_once()
     call_args = mock_instance.messages.create.call_args
-    assert call_args.kwargs['model'] == "claude-3-5-sonnet-20241022"
+    assert call_args.kwargs['model'] == "claude-4-5-sonnet-20251022"

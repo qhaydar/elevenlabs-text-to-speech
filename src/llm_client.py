@@ -13,7 +13,7 @@ class LLMClient:
 
     def generate_script(self, prompt: str) -> str:
         """
-        Generates a spoken script from a user prompt using Claude 3.5 Sonnet.
+        Generates a spoken script from a user prompt using Claude 4.5 Sonnet.
         """
         system_prompt = (
             "You are a professional scriptwriter. Convert the following user prompt "
@@ -22,7 +22,7 @@ class LLMClient:
         )
 
         message = self.client.messages.create(
-            model="claude-3-5-sonnet-20241022",
+            model="claude-4-5-sonnet-20251022",
             max_tokens=1024,
             system=system_prompt,
             messages=[
